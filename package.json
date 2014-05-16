@@ -1,0 +1,29 @@
+{
+      "name"                        : "ee-soa-extension-api"
+    , "description"                 : ""
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/ee-soa-extension-api"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/ee-soa-extension-api.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/ee-soa-extension-api/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.0.x"
+        , "ee-log"                  : "0.2.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "1.17.x"
+    }
+    , "optionalDependencies": {}
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
