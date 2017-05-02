@@ -1,5 +1,7 @@
 # ee-soa-extension-api
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-soa-extension-api.svg)](https://greenkeeper.io/)
+
 description
 
 ## installation
